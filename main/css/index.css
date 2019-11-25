@@ -1,0 +1,52 @@
+
+
+.navi {float: left;
+	width: 200px; height: 100%; position: fixed; background-color: #333;font-weight: bold;}
+.navi > .pager {border: 1px solid #000; background-color: rgb(255, 210, 7); padding: 50px 0;}
+.pager.active {background-color: white;}
+
+
+
+.banners-wrap {height: 975px; overflow: hidden;}
+.banners {float: right; width: calc(100% - 200px); flex-direction: column; position: relative;}
+
+.banner {width: 100%; height: 975px;}
+
+.intlol {font-weight: bold; background-color: rgb(255, 140, 0, .8); width: 800px; height: 800px; border-radius: 1500px; text-align: center; margin: auto; line-height: 150px; top: 50px; left: 20px;}
+.cont {top: 200px; left: 110px; color: #000;}
+.cont > li:last-child {border-top: 4px solid #000;}
+.bax1 {background-color: rgba(255, 113, 88, .8); width: 200px; height: 200px; border-radius: 150px; bottom: 100px; left: 350px;}
+.bax2 {background-color: rgba(255, 252, 88, .8); width: 100px; height: 100px; border-radius: 150px; bottom: 300px; left: 250px;}
+.bax3 {background-color: rgba(255, 252, 88, .8); width: 50px; height: 50px; border-radius: 150px; bottom: 200px; left: 200px;}
+.bax4 {background-color: rgba(88, 255, 96, .5); width: 200px; height: 200px; border-radius: 150px; top: 100px; right: 250px;}
+
+.photos {margin-left: 30px;}
+.photo {text-align: center; flex: 33% 0 1; width: 100%;}
+.photo > img {margin: 20px auto}
+.photo-tit {font-size: 24px; color: black;}
+.sample_bt {margin: auto;}
+.btn {padding: .375rem .75rem; font-size: 1.5rem;}
+
+.skills {background-color: rgb(238, 238, 238, .5); margin: 2rem 1rem 0 1rem; padding: 1rem;}
+.skills > .cont {margin-left: 1rem; margin-bottom: 2rem;}
+.skill {margin: 5rem 2rem 2rem 2rem; }
+.skills > .skill {margin-top: 1rem;}
+.skill .skill-tit {margin: 1rem 0 1rem 0;}
+.skills .skill-bar {background-color: rgb(187, 187, 187, .8);}
+.skills .graph {background-color: rgb(228, 62, 98, .9); text-align: center; padding: 0.5rem 0; color: white;}
+.skill > li:nth-child(1) .graph {width: 95%;}
+.skill > li:nth-child(2) .graph {width: 95%;}
+.skill > li:nth-child(3) .graph {width: 85%;}
+.skill > li:nth-child(4) .graph {width: 80%;}
+
+
+.coll {margin-top: 6rem; margin-left: 4rem;}
+.e-mali {margin-top: 3rem; margin-left: 4rem;}
+.git {margin-top: 3rem; margin-left: 4rem; font-weight: bold;}
+.inst {margin-top: 3rem; margin-left: 4rem; font-weight: bold;}
+
+.bax5 {background-color: rgba(255, 113, 88, .8); width: 150px; height: 150px; border-radius: 150px; bottom: 100px; right: 600px;}
+.bax6 {background-color: rgba(255, 252, 88, .8); width: 80px; height: 80px; border-radius: 150px; bottom: 100px; right: 800px;}
+.bax9 {background-color: rgba(88, 208, 255, 0.8); width: 30px; height: 30px; border-radius: 150px; bottom: 60px; right: 750px;}
+.bax7 {background-color: rgba(255, 252, 88, .8); width: 50px; height: 50px; border-radius: 150px; bottom: 500px; right: 50px;}
+.bax8 {background-color: rgba(88, 255, 96, .5); width: 150px; height: 150px; border-radius: 150px; bottom: 350px; right: 100px;}

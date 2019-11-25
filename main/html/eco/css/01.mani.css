@@ -1,0 +1,10 @@
+
+.aa {position: absolute;}
+
+.navigation:not(:first-child) {color: #aaa; transition: all .7s;}
+.navigation {cursor: pointer;}
+.navigation:hover {color: black;}
+
+.banner-sorlid > h4 {color: coral;}
+.menu > h4{transition: all .7s}
+.menu:hover > h4 {color: darkgreen;}

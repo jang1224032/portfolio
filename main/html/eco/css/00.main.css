@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+/* 녹색: #68a663 */
+/* 갈색: #9e7059 */
+
+
+.robo-serif {font-family: 'Roboto Slab', serif;}
+.benner-solrid > h5 {color: #9e7059}
+.navi-wrap {opacity: 0.5; cursor: pointer;}
+.navi-wrap > li:hover {opacity: 1;}
+.sss {text-align: center}

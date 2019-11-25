@@ -1,0 +1,82 @@
+
+.top-sub {top: 100px; z-index: 9999; box-shadow: 0 0 5px rgba(0, 0, 0, .2); border: 1px solid #ddd; position: absolute; background-color: white; opacity: 0;}
+.top-sub-col {width: 300px; min-height: 400px;}
+.top-menu {display: none;}
+.menu {display: flex; justify-content: center;}
+
+.banner > div {left: 20rem; bottom: 0rem;}
+.cot > .btns {display: flex; justify-content: center;}
+.cot .slides > .slide {flex: 0 1 25%;}
+
+
+
+.ban-title h1 {font-size: 3rem; font-weight: bold;}
+.ban-title span {color: #e52b2b;}
+.btn-outline-dark {border: none; padding: 15px; margin: auto; background-color: white;}
+.btn {border-radius: 0;}
+
+.contact {background-color: #e52b2b;}
+.contact span {border-bottom: 4px solid white; cursor: pointer;}
+.contact span:hover {border: none;}
+
+.list span {color: #e52b2b;}
+.slide-cont {background-color: white;}
+.slides .slide {transition: all 1s; flex: 0 0 25%;}
+
+.adss .adscenter {flex: 1 0 48%; margin: 10px 0;}
+
+.ads h5 {font-weight: inherit;}
+.ads .price {color: #e52b2b;}
+.ads .ads-title, .price {font-weight: bold;}
+.adscenters > .adscenter > div {bottom: 10rem; left: 2rem;}
+.adss > .adsbuttom > div {bottom: 5rem; left: 2rem;}
+
+.pam > .fo-text > .fo-title:hover {color: #999;}
+.free > .fo-text > .fo-title:hover {color: #999;}
+
+.btn-danger:hover {background-color: #222; border: 1px solid #111;}
+.teags {background-color: #eee;}
+.teags .taeg-list:hover {color: #aaa;}
+.teags .taeg-icon > li:hover {color: #999;}
+.teags > .teag-wrap > .teag > .taeg-title:hover {cursor: text;}
+.teags > .teag-wrap > .teag > .taeg-list {display: block;}
+
+
+
+
+
+/* 태블릿 세로 */
+@media screen and (max-width: 992px) {
+	.top-menu {display: block;}
+	.menu {display: none;}
+	.banner > div {left: 10rem; bottom: 0rem;}
+	.ban-title h1 {font-size: 2.5rem;}
+	.cot .slides > .slide {flex: 0 1 48%;}
+	.adss > .adstop > .ads h2 {font-size: 1.5rem;}
+	.adss .adscenter > .ads h5 {font-size: .7rem;}
+	.adscenters > .adscenter > div {bottom: 5rem; left: 2rem;}
+	.adss > .adsbuttom > .ads h5 {font-size: .8rem;}
+	.adss > .adsbuttom > div {bottom: 5rem; left: 2rem;}
+	
+ }
+/* 스파트폰 가로 */
+@media screen and (max-width: 768px) {
+
+ }
+/* 스마트폰 세로 */
+@media screen and (max-width: 768px) {
+	.banner > div {left: 1rem; bottom: -2rem;}
+	.ban-title h1 {font-size: 1.5rem;}
+	.cot .slides > .slide {flex: 0 1 98%;}
+	.adss > .adstop > .ads h2 {font-size: 1.5rem;}
+	.adss .adscenter {flex: 1 0 98%; margin: 10px 0;}
+	.adss .adscenter > .ads h5 {font-size: 1rem;}
+	.adscenters > .adscenter > div {bottom: 10rem; left: 2rem;}
+	.adss > .adsbuttom > .ads h5 {font-size: .9rem;}
+	.adss > .adsbuttom > div {bottom: 2rem; left: 2rem;}
+	.teags > .teag-wrap > .teag > .taeg-title:hover {cursor: pointer; color: #999;}
+	.teags > .teag-wrap > .teag > .taeg-title {border-bottom: 2px solid #999;}
+	.teags > .teag-wrap > .teag > .taeg-list {display: none;}
+	.teags > .teag-wrap > .teag {margin: 10px 0;}
+
+ }
