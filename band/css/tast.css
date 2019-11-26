@@ -1,0 +1,87 @@
+.navis {
+	background-color: #222;
+	color: #f8f8f8;
+}
+
+.navi {
+	float: left;
+}
+
+.search:hover {
+	background-color: red;
+}
+
+.search {
+	float: right;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+.navi>div {
+	padding: 12px 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.navi>div:hover {
+	background-color: #999;
+	color: #222;
+}
+.mn-tit {
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 60px;
+}
+.sud-tit {
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+}
+.cont {
+	text-align: justify;
+	line-height: 1.8;
+}
+.wrap {
+	margin: auto;
+	width: 100%;
+	max-width: 800px;
+	padding: 70px 15px;
+	font-family: 'Sunflower', sans-serif;
+}
+.memder {
+	margin-top: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+.memder .tit {
+	text-align: center;
+	padding: 16px 0;
+}
+.memder > div {
+	width: 49%;
+	float: left;
+}
+.memder .photo {
+	padding: 0 2%
+}
+.photp-cont {
+	text-align: center;
+	font-size: 9px;
+	line-height: 1.8;
+}
+.cont-1 {
+	text-align: justify;
+	font-size: 12px;
+}
+.cont-2 {
+	text-align: justify;
+	font-size: 12px;
+}
+.cont-3 {
+	text-align: justify;
+	font-size: 12px;
+}
+.tit {
+	text-align: center;
+}

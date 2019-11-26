@@ -1,0 +1,54 @@
+body {
+	background-color: #eee;
+}
+
+.header {
+	background-color: #cfcfcf;
+	padding: 20px;
+}
+
+.wrap {
+	background-color: #ff7e7e;
+	padding: 20px;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.box-lt {
+	width: 70%;
+	background-color: #99f775;
+	padding: 20px;
+	float: left;
+}
+
+.box-rt {
+	width: 28%;
+	background-color: #944ef0;
+	padding: 20px;
+	float: right;
+}
+
+.foolter {
+	background-color: #5d6dff;
+	padding: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer-lt {
+	float: left;
+	width: 50%;
+	padding: 100px;
+	border: 10px solid red;
+}
+
+.footer-rt {
+	float: right;
+	width: 50%;
+	padding: 100px;
+	border: 10px solid red;
+}

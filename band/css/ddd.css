@@ -1,0 +1,26 @@
+/* 네비 */
+.tops {
+	background-color: aliceblue;
+	float: right;
+	height: 1px;
+}
+.navi {
+	float: right;
+}
+.navi > div {
+	float: right;
+}
+.bar:hover {
+	background-color: #999;
+}
+.ber {
+	cursor: pointer;
+	float: left;
+}
+.ber > i {
+	float: left;
+}
+.tit {
+}
+.mail {
+}

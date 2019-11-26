@@ -1,0 +1,134 @@
+/* 공통 */
+.wrap {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 800px;
+	padding: 70px 15px;
+}
+
+/* 네이게이션 */
+.navigation {
+	background-color: #222;
+	color: #f8f8f8;
+}
+
+.navi {
+	float: left;
+}
+
+.navi>div {
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.navi>div:hover {
+	background-color: #ccc;
+	color: #222;
+}
+
+.search {
+	float: right;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.search:hover {
+	background-color: #bd0000;
+}
+
+/* 베너 */
+.beder {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.beder-tex {
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.mn-tit {
+	font-family: 'Noto Sans KR', sans-serif;
+	padding-top: 20px;
+	font-size: 17px;
+}
+
+.sud-tit {
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #aaa;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.cont {
+	padding-top: 10px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+/* 멤버 이미지 */
+.memders {
+	margin-top: 30px;
+	padding: 10px;
+	float: left;
+}
+
+.memder {
+	margin: 10px;
+	width: 40%;
+	float: left;
+}
+
+.memders-img {
+	float: left;
+	padding: 12px;
+	background-color: #222;
+}
+
+.neme {
+	font-weight: bold;
+	color: #000;
+}
+
+.date {
+	font-size: 14px;
+	color: #aaa;
+	font-style: italic;
+	margin-bottom: 16px;
+}
+
+.cont {
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 5px;
+}
+
+.imgmn-tit {
+	margin-top: 40px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.img1 {
+	float: left;
+}
+
+.clear::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/* 활동 */
+.tour {
+	background-color: #000;
+	color: #aaa;
+}
+
+li,
+ul {
+	list-style: none;
+}
